@@ -1,8 +1,8 @@
 {
-    "name": "ylyun/ylyun",
+    "name": "jiang0425/ylyuntest",
     "type": "library",
     "description": "YLYun API PHP Client",
-    "homepage": "https://github.com/yilanyun/ylyun-api-php-client",
+    "homepage": "",
     "license": "MIT",
     "authors": [
         {
