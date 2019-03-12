@@ -1,0 +1,22 @@
+{
+    "name": "ylyun/ylyun",
+    "type": "library",
+    "description": "YLYun API PHP Client",
+    "homepage": "https://github.com/yilanyun/ylyun-api-php-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YLYun",
+            "email": "github@yilan.tv",
+            "homepage": "https://www.yilan.tv/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*"
+    },
+    "autoload" : {
+        "psr-4": {"YLYun\\": "src/YLYun/"}
+    }
+}
