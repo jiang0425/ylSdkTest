@@ -47,7 +47,6 @@ class TestSdk {
 
         echo "\n ###获取个性化推荐视频(携带广告)数据### \n";
         $adFeedParam = new FeedWithAdParam();
-        //
         $adFeedParam->format([
             'channel_id' => '1351',
             'adid' => 'TEST_YILAN',
@@ -82,6 +81,10 @@ class TestSdk {
 		echo "\n ###获取视频相关数据### \n";
 		$relate = $this->client->video()->videoRelate($vid);
 		var_export($relate);
+
+		echo "\n ###获取视频播放数据### \n";
+		$play = $this->client->video()->videoPlay($vid);
+		var_export($play);
 	}
 
 	public function run($mod) {
